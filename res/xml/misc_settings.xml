@@ -4,6 +4,12 @@
         android:key="misc_settings"
         android:title="@string/misc_settings_title">
 
+        <!-- Unlock FPS for specific games -->
+        <com.android.settings.clover.preference.SecureSettingSwitchPreference
+            android:key="pi_games_spoof"
+            android:title="@string/use_games_spoof_title"
+            android:summary="@string/use_games_spoof_summary" />
+
         <!-- Unlimited google photos storage -->
         <com.android.settings.clover.preference.SecureSettingSwitchPreference
             android:key="pi_photos_spoof"
