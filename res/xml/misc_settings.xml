@@ -10,4 +10,11 @@
             android:title="@string/use_photos_spoof_title"
             android:summary="@string/use_photos_spoof_summary"
             android:defaultValue="true" />
+
+        <!-- Netflix -->
+        <com.android.settings.clover.preference.SecureSettingSwitchPreference
+            android:key="pi_netflix_spoof"
+            android:title="@string/netflix_spoof_title"
+            android:summary="@string/netflix_spoof_summary"
+            android:defaultValue="false" />
 </PreferenceScreen>
