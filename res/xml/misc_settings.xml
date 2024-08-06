@@ -4,6 +4,13 @@
         android:key="misc_settings"
         android:title="@string/misc_settings_title">
 
+        <!-- Google Play Integrity -->
+        <com.android.settings.clover.preference.SecureSettingSwitchPreference
+            android:key="pi_enable_spoof"
+            android:title="@string/pi_spoof_title"
+            android:summary="@string/pi_spoof_summary"
+            android:defaultValue="true" />
+
         <!-- Vbmeta hash attestation -->
         <com.android.settings.clover.preference.SystemPropertySwitchPreference
             android:key="persist.sys.vbmeta.update"
