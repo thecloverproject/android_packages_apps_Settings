@@ -4,6 +4,13 @@
         android:key="misc_settings"
         android:title="@string/misc_settings_title">
 
+        <!-- Keybox Data -->
+        <com.android.settings.preferences.KeyboxDataPreference
+            android:key="keybox_data_setting"
+            android:title="@string/keybox_data_title"
+            android:summary="@string/keybox_data_summary"
+            android:defaultValue=""/>
+
         <!-- Block attestation even with Keybox Data -->
         <com.android.settings.clover.preference.SecureSettingSwitchPreference
             android:key="pi_gms_cert_chain"

@@ -347,4 +347,8 @@
     <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
     <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
 
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox imitation spoof</string>
+    <string name="keybox_data_summary">Select custom keybox XML for system-wide key attestation spoof</string>
+
 </resources>
