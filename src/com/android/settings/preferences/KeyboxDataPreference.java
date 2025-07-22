@@ -34,7 +34,7 @@ public class KeyboxDataPreference extends Preference {
 
     public KeyboxDataPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setLayoutResource(R.layout.keybox_data_pref);
+        setLayoutResource(R.layout.pref_with_delete);
     }
 
     public void setFilePickerLauncher(ActivityResultLauncher<Intent> launcher) {

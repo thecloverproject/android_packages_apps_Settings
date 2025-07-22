@@ -365,4 +365,8 @@
     <string name="pi_spoof_title">Google Play Integrity spoof</string>
     <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
 
+    <!-- Pif Data -->
+    <string name="pif_data_title">Select PIF JSON to spoof</string>
+    <string name="pif_data_summary">Select PIF JSON used for prop attestation spoofing for google mobile services. Click the delete button in order to reset the PIF data props and use dynamic PIF props which are used by default.</string>
+
 </resources>
