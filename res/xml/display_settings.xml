@@ -50,6 +50,13 @@
             settings:keywords="@string/keywords_display_hdr_brightness"
             settings:controller="com.android.settings.display.HdrBrightnessPreferenceController"/>
 
+        <com.android.settings.clover.preference.SystemSettingListPreference
+            android:key="qs_brightness_slider_shape"
+            android:title="@string/qs_brightness_slider_shape_title"
+            android:entries="@array/qs_brightness_slider_shape_entries"
+            android:entryValues="@array/qs_brightness_slider_shape_values"
+            android:defaultValue="0" />
+
         <com.android.settings.clover.preference.SecureSettingListPreference
             android:key="qs_brightness_slider_position"
             android:title="@string/status_bar_brightness_slider_position_title"
