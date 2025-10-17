@@ -4,6 +4,12 @@
         android:key="misc_settings"
         android:title="@string/misc_settings_title">
 
+        <!-- Block attestation even with Keybox Data -->
+        <com.android.settings.clover.preference.SecureSettingSwitchPreference
+            android:key="pi_gms_cert_chain"
+            android:title="@string/pi_gmscertchain_title"
+            android:summary="@string/pi_gmscertchain_summary" />
+
         <!-- Unlock FPS for specific games -->
         <com.android.settings.clover.preference.SecureSettingSwitchPreference
             android:key="pi_games_spoof"

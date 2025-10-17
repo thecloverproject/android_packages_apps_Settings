@@ -343,4 +343,8 @@
     <string name="use_games_spoof_title">Unlock higher FPS in games</string>
     <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
 
+    <!-- Block attestation even with Keybox Data -->
+    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
+    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
+
 </resources>
