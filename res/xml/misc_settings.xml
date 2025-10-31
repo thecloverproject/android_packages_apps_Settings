@@ -4,6 +4,13 @@
         android:key="misc_settings"
         android:title="@string/misc_settings_title">
 
+        <!-- Vbmeta hash attestation -->
+        <com.android.settings.clover.preference.SystemPropertySwitchPreference
+            android:key="persist.sys.vbmeta.update"
+            android:title="@string/vbmeta_attestation_title"
+            android:summary="@string/vbmeta_attestation_summary"
+            android:defaultValue="true" />
+
         <!-- Keybox Data -->
         <com.android.settings.preferences.KeyboxDataPreference
             android:key="keybox_data_setting"
